@@ -1,0 +1,61 @@
+h1{
+    margin-left: 50px;
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+div{
+    text-align: left;
+    margin-bottom: 15px;
+}
+input{
+    margin-left: 10px;
+}
+legend{
+    color: blue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer p{
+    font-family:serif;
+}
+body{
+    max-width: 880px;
+    border: 3px solid #cf1ecf;
+    margin: 0 auto;
+    padding: 0 2em 1em;
+}
+#submitbutton{
+    margin-top: 15px;
+}
+#nights{
+    margin-left: 47px;
+}
+#adults{
+    margin-left: 50px;
+}
+#children{
+    margin-left: 43px;
+}
+
+#typeOfRoom{
+    margin-left: 20px;
+}
+#typeOfBed{
+    margin-left: 33px;
+}
+#name, #email{
+    margin-left: 50px;
+}
+#phone{
+    margin-left: 48px;
+}
+
+.error{
+    color: red;
+}
+#exitPText{
+    text-align: center;
+    line-height: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

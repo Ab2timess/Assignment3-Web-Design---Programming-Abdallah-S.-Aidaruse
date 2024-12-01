@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Request</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <form id="Reservation">
+        <h1>Reservation Request</h1>
+        <fieldset id="info">
+            <legend>General Information</legend>
+                <div>
+                <label for="dateArrival">Arrival Date:</label>
+                <input type="date" id="dateArrival"> <span class="error">*</span>
+                </div>
+                <div>
+                    <label for="nights">Nights:</label>
+                    <input type="text" id="nights"><span class="error">*</span>
+                </div>
+                <div>
+                    <label for="adults">Adults:</label>
+                    <select id="adults">
+                        <option value="" selected disabled>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="children">Children</label>
+                    <select id="children"><span class="error">*</span>
+                        <option value="" selected disabled>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+        </fieldset>
+        <fieldset id="preferences">
+            <legend>Preferences</legend>
+            <div>
+                <label for="typeOfRoom">Room Type:</label>
+                <input type="radio" id="typeOfRoom" name="typeOfRoom" value="Standard"> Standard
+                <input type="radio" id="typeOfRoom" name="typeOfRoom" value="Business"> Business
+                <input type="radio" id="typeOfRoom" name="typeOfRoom" value="Suite"> Suite
+                <span class="error">*</span>
+            </div>
+            <div>
+                <label for="typeOfBed">Bed Type:</label>
+                <input type="radio" id="typeOfBed" name="typeOfBed" value="King"> King
+                <input type="radio" id="typeOfBed" name="typeOfBed" value="Double"> Double Double
+                <span class="error">*</span>
+            </div>
+            <div>
+                <input type="checkbox" id="smokeCheck">
+                <label for="smokeCheck">Smoking:</label><span class="error">*</span>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contact information</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name"><span class="error">*</span>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email"><span class="error">*</span>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" placeholder="999-999-9999"><span class="error">*</span>
+            </div>
+        </fieldset>
+        <button id="submitbutton">Submit Request</button>
+    </form>
+    <footer>
+        <p>&copy; "Abdallah S. Aidaruse/n01438229" 2024</p>
+    </footer>
+    
+<script src="javascript4.js"></script>
+</body>
+</html>

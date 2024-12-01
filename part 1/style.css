@@ -1,0 +1,26 @@
+h1{
+    margin-left: 50px;
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+form > div{
+    text-align: center;
+    margin-bottom: 15px;
+}
+input{
+    margin-left: 10px;
+}
+#clear_button{
+    margin-left: 25px;
+}
+footer p{
+    font-family:serif;
+    text-align: center;
+}
+body{
+    max-width: 600px;
+    border: 3px solid #cf1ecf;
+    margin: 0 auto;
+    padding: 0 2em 1em;
+}
